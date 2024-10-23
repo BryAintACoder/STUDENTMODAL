@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.background-message {
+    background-image: url('../img/logo2.png');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 55%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica World', sans-serif;
+}
+
+.selection {
+    background-color: #2D7A41;
+    padding: 20px;
+    width: 70%; /* Adjust width to match the background message */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.selection h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.role-container {
+    background-color: rgb(236, 229, 229); /* Set container background color to white */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%; 
+    height: 95%;
+}
+.role-container h1{
+   color: black;
+   font-weight: bold;
+   margin-top: 120px;
+}
+
+.role-container h2{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -40px;
+ }
+
+ .role-container h3{
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 100px;
+ }
+.role-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role-buttons button {
+    margin: 0px 40px; /* Adjust spacing between buttons */
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: 300px; /* Adjust button width as needed */
+    box-sizing: border-box;
+    background-color: green; /* Set button background color */
+    color: white; /* Set text color to white */
+    border: 2px solid yellow; /* Set yellow border */
+    font-weight: bold;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgb(21, 96, 23);
+    border-color: yellow;
+    color: white;
+}
+
+.role-image {
+    width: 600px; /* Set the desired width of the image */
+    height: auto; /* Maintain aspect ratio */
+   
+}

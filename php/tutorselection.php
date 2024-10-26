@@ -151,7 +151,6 @@ if ($result) {
         echo "<p class='bio'>" . htmlspecialchars(substr($row['bio'], 0, 155)) . (strlen($row['bio']) > 75 ? '...' : '') . "</p>";
         echo "<p class='rate'> ₱" . htmlspecialchars($row['ratePerHour']) . "/hr</p>";
 
-        // Add the "Book a Session" button
 
         // Add the "View More Details" button
         echo "<button type='button' class='btn btn-outline-success' data-bs-toggle='modal' data-bs-target='#detailsModal{$row['tutorID']}'>View More Details</button>";

@@ -15,7 +15,7 @@ include('php/approvalStatus.php');
   <title>FEUTOR</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/approval-status.css">
 
 
 </head>
@@ -65,15 +65,9 @@ include('php/approvalStatus.php');
     </div>
   </nav>
 
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card text-center">
-          <div class="card-header">
-            <h2 class="card-title">Approval Status</h2>
-          </div>
+ 
           <div class="card-body">
-            <p>
+            <p><?php echo $status_message; ?></p>
           </div>
         </div>
       </div>
